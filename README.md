@@ -1,67 +1,67 @@
-Obilet UI Test Automation
+# Obilet UI Test Automation
 
 Bu proje, Obilet web sitesi üzerinde iki temel senaryonun Selenium + TestNG kullanılarak otomasyonunu içerir.
 
-Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
-Java 17+
+- Java## 17+
 
-Selenium 4
+- Selenium 4
 
-TestNG
+- TestNG
 
-Maven
+- Maven
 
-WebDriverManager
+- WebDriverManager
 
-Test Senaryoları
-Case 1 – Otobüs Bileti Satın Alma & Fiyat Doğrulama
-
-Adımlar:
-
-Nereden: İstanbul seçilir.
-
-Nereye: Rize yazılır ve dropdown’dan seçilir.
-
-Tarih: 28 Mart 2026 seçilir.
-
-Otobüs Ara butonuna basılır.
-
-Listede ilk seferin fiyatı alınır.
-
-İlk sefer seçilir.
-
-28 numaralı koltuk seçilir.
-
-Cinsiyet seçilir.
-
-Ödeme sayfasındaki toplam tutar alınır.
-
-Liste fiyatı ile ödeme fiyatı karşılaştırılır.
-
-Doğrulama:
-
-Liste fiyatı ile ödeme sayfasındaki fiyat eşleşmelidir.
-
-Case 2 – Otel Filtreleme & Sıralama Kontrolü
+## Test Senaryoları
+## Case 1 – Otobüs Bileti Satın Alma & Fiyat Doğrulama
 
 Adımlar:
 
-Otel sayfasına geçilir.
+- Nereden: İstanbul default kalır.
 
-Lokasyon olarak Rize aranır.
+- Nereye: Rize yazılır ve dropdown’dan seçilir.
 
-Yarım Pansiyon filtresi uygulanır.
+- Tarih: 28 Mart 2026 seçilir.
 
-Fiyatlar "Düşükten Yükseğe" sıralanır.
+- Otobüs Ara butonuna basılır.
 
-Doğrulamalar:
+- Listede ilk seferin fiyatı alınır.
 
-Yarım Pansiyon filtresi uygulanmış olmalıdır.
+- İlk sefer seçilir.
 
-Fiyatlar artan sırada olmalıdır.
+- 28 numaralı koltuk seçilir.
 
-Çalıştırma
+- Cinsiyet seçilir.
+
+- Ödeme sayfasındaki toplam tutar alınır.
+
+- Liste fiyatı ile ödeme fiyatı karşılaştırılır.
+
+## Doğrulama:
+
+- Liste fiyatı ile ödeme sayfasındaki fiyat eşleşmelidir.
+
+- Case 2 – Otel Filtreleme & Sıralama Kontrolü
+
+## Adımlar:
+
+- Otel sayfasına geçilir.
+
+- Lokasyon olarak Rize aranır.
+
+- Yarım Pansiyon filtresi uygulanır.
+
+- Fiyatlar "Düşükten Yükseğe" sıralanır.
+
+## Doğrulamalar:
+
+- Yarım Pansiyon filtresi uygulanmış olmalıdır.
+
+- Fiyatlar artan sırada olmalıdır.
+
+## Çalıştırma
 IntelliJ ile
 
 BookingAutomationTest sınıfını çalıştır.
